@@ -85,39 +85,30 @@ body {
     font-weight: 700;
 }
 
-
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-    font-family: 'Franklin Gothic', sans-serif;
+    position:absolute;
+    bottom: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #b3b3b3;
     font-size: 0.76rem;
-    flex-wrap: wrap;
 }
 
-
 .logoGaenge {
-    width: 21%;
-
+    width: 4rem;
     color: #b3b3b3;
-    flex: 0 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 1rem;
 }
 
 .rights {
+    position: fixed;
+    right: 0;
+    bottom: 0;
     margin: 1rem;
     text-align: right;
-    flex: 1;
-}
-
-.info {
-    color: #b3b3b3;
-    font-size: 0.76rem;
-    text-align: center;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Franklin Gothic', sans-serif;
-    flex: 1;
 }
 
 @keyframes rotateAndScale {
