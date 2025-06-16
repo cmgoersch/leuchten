@@ -86,6 +86,30 @@ body {
 }
 
 
+.live_link {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 15px;
+    width: 200px; 
+    max-width: 80%;  
+    color: #333333;
+    background-color: #b3b3b3;
+    border: none;
+    border-radius: 0.9rem;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;        /* Textausrichtung */
+    text-decoration: none;     /* Wenn es ein <a>-Tag ist */
+    cursor: pointer;
+}
+
 .footer {
     display: flex;
     justify-content: space-between; 
@@ -112,6 +136,7 @@ body {
 }
 
 .info {
+    margin-top: 10px;
     color: #b3b3b3;
     font-size: 0.76rem;
     text-align: center; 
